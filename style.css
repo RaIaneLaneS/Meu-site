@@ -1,0 +1,43 @@
+:root {
+    --azul-principal: #000000;
+    --botao-branco: #ffffff;
+    --cor-de-fundo: #94c0c8;
+    --fonte-principal:"Roboto Slab";
+    --fonte-titulo:"Cabin";
+}
+body {
+    background-color: var(--cor-de-fundo)
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url("pet5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+
+
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25%;
+}
+.container__botao {
+    background-color: var(--botao-branco);
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--azul-principal);
+    display: block;
+    font-family: var(--fonte-principal);
+    font-size: 98%;
+    font-weight: 400;
+}
+.container__titulo{
+    font-family:var(--fonte-titulo) ;
+    font-size: 140%;
+    font-weight: 400;
+}
